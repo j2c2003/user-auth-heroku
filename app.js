@@ -63,7 +63,7 @@ app.use(function(err, req, res, next) {
 });
 
 // listen on port 3000
-let port = process.env.PORT;
+var port = process.env.PORT;
 if (port == null || port == "") {
   port = 8000;
 }
